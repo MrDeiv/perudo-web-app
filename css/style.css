@@ -16,35 +16,41 @@
     padding: 0;
     font-weight: 300;
   }
+  .center {
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 30px;
+  }
   body {
     font-family: 'Source Sans Pro', sans-serif;
-    color: white;
+    color: black;
     font-weight: 300;
   }
   body ::-webkit-input-placeholder {
     /* WebKit browsers */
     font-family: 'Source Sans Pro', sans-serif;
-    color: white;
+    color: #a80cad;
     font-weight: 300;
   }
   body :-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
     font-family: 'Source Sans Pro', sans-serif;
-    color: white;
+    color:#a80cad;
     opacity: 1;
     font-weight: 300;
   }
   body ::-moz-placeholder {
     /* Mozilla Firefox 19+ */
     font-family: 'Source Sans Pro', sans-serif;
-    color: white;
+    color:#a80cad;
     opacity: 1;
     font-weight: 300;
   }
   body :-ms-input-placeholder {
     /* Internet Explorer 10+ */
     font-family: 'Source Sans Pro', sans-serif;
-    color: white;
+    color: #a80cad;
     font-weight: 300;
   }
   .wrapper {
@@ -94,7 +100,7 @@
     display: block;
     text-align: center;
     font-size: 18px;
-    color: white;
+    color: #a80cad;
     -webkit-transition-duration: 0.25s;
             transition-duration: 0.25s;
     font-weight: 300;
