@@ -12,36 +12,21 @@
     <title>Perudo Online</title>
   </head>
   <body>
-    <div class="wrapper center">
+    <div class="wrapper">
         <div class="container">
-          <h1>Benvenuto!</h1>
+          <h1 style="color: white">Benvenuto!</h1>
           <div class="card-deck">
             <div class="card">
               <img src="./img/perudo.jpg" class="card-img-top" alt="perudo">
               <div class="card-body">
                 <h3 class="card-title" style="color: #b918be">Gioca come ospite</h3>
-                <form>
-                  <input type="text" placeholder="Username">
-                  <input type="password" placeholder="Password">
-                  <button type="submit" id="login-button">Login</button>
+                <form action="lobby.php" method="POST">
+                  <input type="text" name="username" placeholder="username">
+                  <input type="submit" class="button" name="play-button">
                 </form>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
-            </div>
-            <div class="card">
-            <img src="./img/perudo.jpg" class="card-img-top" alt="perudo">
-              <div class="card-body">
-              <h3 class="card-title"style="color: #b918be">Accedi</h3>
-                <form class="form">
-                  <input type="text" placeholder="username" name="username" required>
-                  <input type="password" placeholder="password" name="password" required>
-                  <input type="submit" id="login-button">Login</button>
-                </form>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted">Check my repository on <a href="https://github.com/MrDeiv/perudo-web-app">GitHub</a></small>
               </div>
             </div>
           </div>

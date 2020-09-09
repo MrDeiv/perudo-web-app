@@ -16,12 +16,6 @@
     padding: 0;
     font-weight: 300;
   }
-  .center {
-    margin: auto;
-    width: 50%;
-    border: 3px;
-    padding: 30px;
-  }
   body {
     font-family: 'Source Sans Pro', sans-serif;
     color: black;
@@ -81,8 +75,8 @@
             transition-timing-function: ease-in-put;
     font-weight: 200;
   }
+
   form {
-    padding: 20px 0;
     position: relative;
     z-index: 2;
   }
@@ -92,15 +86,13 @@
             appearance: none;
     outline: 0;
     border: 1px solid rgba(255, 255, 255, 0.4);
-    background-color: rgba(255, 255, 255, 0.2);
-    width: 250px;
+    border-color: #b918be;
     border-radius: 3px;
-    padding: 10px 15px;
     margin: 0 auto 10px auto;
     display: block;
     text-align: center;
     font-size: 18px;
-    color: #a80cad;
+    color: #b918be;
     -webkit-transition-duration: 0.25s;
             transition-duration: 0.25s;
     font-weight: 300;
@@ -120,18 +112,18 @@
     outline: 0;
     background-color: white;
     border: 0;
-    padding: 10px 15px;
-    color: #0bbbe7;
+    color: #b918be;
+    border-color: #b918be;
     border-radius: 3px;
-    width: 250px;
-    cursor: pointer;
+    cursor: grab;
     font-size: 18px;
     -webkit-transition-duration: 0.25s;
             transition-duration: 0.25s;
   }
-  form button:hover {
+  .button:hover {
     background-color: #f5f7f9;
   }
+
   .bg-bubbles {
     position: absolute;
     top: 0;
